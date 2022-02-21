@@ -7,10 +7,9 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/beevik/go6502/host"
 	"os"
 	"os/signal"
-
-	"github.com/beevik/go6502/host"
 )
 
 var (
